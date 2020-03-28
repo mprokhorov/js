@@ -1,0 +1,2 @@
+export const getValue = (key = '') => JSON.parse(localStorage.getItem(key)) // convert JSON to object
+export const setValue = (key = '', value = {}) => localStorage.setItem(key, JSON.stringify(value)) // convert object to JSON

@@ -1,0 +1,28 @@
+* {
+  margin: 0 auto;
+}
+
+.title {
+  position: fixed;
+  top: 0;
+  left: 50%;
+}
+
+.container {
+  margin-top: 70px;
+  position: fixed;
+  top: 0;
+  left: 45%;
+}
+
+.item {
+  margin: 7px
+}
+
+.item-text {
+  text-decoration: line-through;
+}
+
+.add-item {
+  margin: 15px;
+}
